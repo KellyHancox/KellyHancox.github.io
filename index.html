@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="icon" type="image/png" href="images/kh">
+    <link rel="icon" type="image/png" href="images/kh.png">
 
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -259,17 +259,54 @@
             <h2 class="mb-4">Selected Projects</h2>
           </div>
         </div>
-        <div class="row d-flex">
 
+        <!-- one row of projects: -->
+        <div class="row d-flex pb-5 justify-content-center">
+
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a class="block-20" style="background-image: url('images/image_4.jpeg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">WrappedUnwrapped</h3>
+                <p>WrappedUnwrapped is a website project that I created in React using the Spotify API 
+                and Google Firebase as a database. It allows you to get your top Spotify artists and albums, then it generates 
+                your top genres based off of your top artists. You can save these to a database and compare with other uses in the database! Demo coming soon.</p>
+              </div>
+
+              <div class="row">
+               <a class="btn btn-primary ml-3" role="button">Demo coming soon</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">Studique</h3>
+                <p>Studique is a website I built with a team in React. 
+                  It is like a Stack Overflow for Grand Valley students, with the possibility to be spun up on different campuses. 
+                  Click below for a Youtube Demo!
+                </p>
+              </div>
+              <div class="row">
+                 <a class="btn btn-primary ml-3" role="button" 
+                 href="https://youtu.be/YZPbAlmCX4g" target="_blank" >Studique Demo</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Second row of projects -->
+        <div class="row d-flex justify-content-center">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a class="block-20" style="background-image: url('images/image_1.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
-              	<div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                </p>
-                </div>
                 <h3 class="heading">GV Discover</h3>
                 <p>GVDiscover is an Android developed app like Facebook Local for
                   Grand Valley students and staff members. You can create, search and sign up
@@ -286,17 +323,11 @@
 
           </div>
 
-
-
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a class="block-20" style="background-image: url('images/image_2.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
-              	<div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                </p>
-                </div>
                 <h3 class="heading">Wheeld</h3>
                 <p>This is an Android developed application similar to GrubHub
                   where you can order bookmarks to your door.
@@ -317,10 +348,6 @@
               <a class="block-20" style="background-image: url('images/image_3.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
-              	<div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                </p>
-                </div>
                 <h3 class="heading">Final Exam Calculator</h3>
                 <p>This is a web application created within Blackboard to
                   calculate what is needed on a final exam for a particular grade.
@@ -334,6 +361,10 @@
             </div>
           </div>
         </div>
+
+
+
+
       </div>
     </section>
 
